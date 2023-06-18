@@ -9,7 +9,49 @@
 </head>
 
 <body>
+    <div id="calculator-container">
+        <!-- Display -->
+        <input type="text" name="display" id="calculator-display" value="37.5" readonly>
 
+        <div id="buttons-container">
+            <!-- Controls -->
+            <div class="button-row">
+                <button class="calculator-button" id="clear-button"> C </button>
+                <button class="calculator-button" id="add"> + </button>
+            </div>
+            <div class="button-row">
+                <div class="numbers">
+                    <button class="calculator-button" type="button"> 1 </button>
+                    <button class="calculator-button" type="button"> 2 </button>
+                    <button class="calculator-button" type="button"> 3 </button>
+                </div>
+                <button class="calculator-button" id="subtract"> - </button>
+            </div>
+            <div class="button-row">
+                <div class="numbers">
+                    <button class="calculator-button" type="button"> 4 </button>
+                    <button class="calculator-button" type="button"> 5 </button>
+                    <button class="calculator-button" type="button"> 6 </button>
+                </div>
+                <button class="calculator-button" id="multiply"> x </button>
+            </div>
+            <div class="button-row">
+                <div class="numbers">
+                    <button class="calculator-button" type="button"> 7 </button>
+                    <button class="calculator-button" type="button"> 8 </button>
+                    <button class="calculator-button" type="button"> 9 </button>
+                </div>
+                <button class="calculator-button" id="divide"> / </button>
+            </div>
+            <div class="button-row">
+                <div class="numbers">
+                    <button class="calculator-button" type="button"> . </button>
+                    <button class="calculator-button" type="button"> 0 </button>
+                </div>
+                <button class="calculator-button" id="submit-button" type="button"> = </button>
+            </div>
+        </div>
+    </div>
 
 
     <script src="script.js" defer></script>
