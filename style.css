@@ -36,3 +36,11 @@
     justify-content: space-between;
     gap: 4px;
 }
+
+#clear-button {
+    height: 60px;
+    width: 100px;
+    font-size: x-large;
+    background-color: red;
+    color: white;
+}
